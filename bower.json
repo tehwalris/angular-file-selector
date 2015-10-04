@@ -1,7 +1,7 @@
 {
   "name": "angular-file-selector",
   "main": "angular-file-selector.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Philippe Voinov <philippevoinov@gmail.com>"
   ],
