@@ -5,10 +5,11 @@ angular.module('tehwalris.file-selector', [])
       transclude: true,
       scope: {
         onSelect: '&?',
-        file: '=?'
+        file: '=?',
+        accept: '@?'
       },
       link: {post: linkFunc},
-      template: '<input style="display:none;" type="file" /><div ng-transclude></div>'
+      template: '<input style="display:none;" type="file" accept="{{accept}}" /><div ng-transclude></div>'
   };
 
   function linkFunc(scope, element) {

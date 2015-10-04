@@ -33,5 +33,7 @@ Use the `file` attribute to bind a variable to the file object. In this example,
 You can also use the `on-select` attribute to call a function from your scope when a new file is selected. For example:
 
 ```html
-<button file-selector on-select="uploadFile(file)"></button>
+<button file-selector on-select="uploadFile(file)" accept=".txt"></button>
 ```
+
+The optional accept attribute can be used to filter selectable files. It behaves the same as on a normal HTML file input.
