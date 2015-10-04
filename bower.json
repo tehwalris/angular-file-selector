@@ -1,0 +1,26 @@
+{
+  "name": "angular-file-selector",
+  "main": "angular-file-selector.js",
+  "version": "0.0.0",
+  "authors": [
+    "Philippe Voinov <philippevoinov@gmail.com>"
+  ],
+  "description": "A simple directive to make file selector buttons.",
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "file",
+    "select",
+    "selector",
+    "directive"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
