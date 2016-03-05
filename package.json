@@ -1,0 +1,27 @@
+{
+  "name": "angular-file-selector",
+  "version": "0.1.0",
+  "description": "A simple directive to make file selector buttons.",
+  "main": "angular-file-selector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehwalris/angular-file-selector.git"
+  },
+  "keywords": [
+    "file",
+    "select",
+    "selector",
+    "angular",
+    "directive",
+    "button"
+  ],
+  "author": "Philippe \"tehwalris\" Voinov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tehwalris/angular-file-selector/issues"
+  },
+  "homepage": "https://github.com/tehwalris/angular-file-selector#readme"
+}
